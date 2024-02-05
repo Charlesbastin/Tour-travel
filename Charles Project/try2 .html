@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Six Cards Example</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .card {
+      width: 300px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      margin: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      box-sizing: border-box;
+      position: relative;
+      border-radius: 8px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 20px;
+      color: #333;
+    }
+
+    p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 8px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 4px;
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <img src="https://placekitten.com/300/200" alt="Card Image">
+      <h2>Card 1 Title</h2>
+      <p>
+        This is a description for card 1. Customize it as needed.
+      </p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+
+    <div class="card">
+      <img src="https://placekitten.com/300/200" alt="Card Image">
+      <h2>Card 2 Title</h2>
+      <p>
+        This is a description for card 2. Customize it as needed.
+      </p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+
+    <div class="card">
+      <img src="https://placekitten.com/300/200" alt="Card Image">
+      <h2>Card 3 Title</h2>
+      <p>
+        This is a description for card 3. Customize it as needed.
+      </p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+
+    <div class="card">
+      <img src="https://placekitten.com/300/200" alt="Card Image">
+      <h2>Card 4 Title</h2>
+      <p>
+        This is a description for card 4. Customize it as needed.
+      </p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+
+    <div class="card">
+      <img src="assets/img/_8e117566-4844-4a68-9fd2-5fc3188bf203.jpg" alt="Card Image">
+      <h2>Card 5 Title</h2>
+      <p>
+        This is a description for card 5. Customize it as needed.
+      </p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+
+    <div class="card">
+      <img src="assets/img/_263204e0-ae4c-4bd7-a088-60211668fd02.jpg" alt="Card Image">
+      <h2>Card 6 Title</h2>
+      <p>
+        This is a description for card 6. Customize it as needed.
+      </p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+  </div>
+</body>
+</html>

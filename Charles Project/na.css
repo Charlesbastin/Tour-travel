@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --primary:#111926;
+  --white:#fff;
+  --gray:#D3D3D3;
+  --text:#262626;
+  --like:#FF3040;
+}
+body
+ {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+   /* Replace 'your-wallpaper.jpg' with your actual image URL */
+}
+
+header {
+  background-color: rgba(178, 208, 27, 0.8); 
+  background: url('assets/img/_8e117566-4844-4a68-9fd2-5fc3188bf203.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  width:100%;
+  height:900px;/* Semi-transparent background */
+  color: #fff;
+  box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.2);
+  padding: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top:0;
+  position:sticky;
+  z-index: 2000;
+  
+}
+
+.logo {
+  font-size: 1.5em;
+  top:0;
+  position:sticky;
+  z-index: 2000;
+ 
+
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color:var(--white);
+  font-weight:500;
+  font-size: 25px;
+   padding: 20px;
+  transition: color 0.3s ease;
+  font-family: 'Poppins',sans-serif;
+}
+
+.nav-list a:hover {
+  color:#e5bb00; /* Change color on hover */
+}
+
+.login-btn a {
+  padding: 8px 16px;
+  top:0;
+  position:sticky;
+  z-index: 2000;
+  background-color: #ffd700;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn a:hover {
+  background-color: #e5bb00; /* Change color on hover */
+}
+
+.Time {
+  width:974px;
+  height:104px;
+  font-family: 'Poppins';
+  color:#fff;
+  position:absolute; 
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-60%);
+  text-align: center;
+}
+.Time h2{
+   font-size:64px;
+   font-style:normal;
+   font-family: 'Poppins',sans-serif;
+   font-weight: 275;
+   line-height: normal;
+   color: var(--white);
+}
+.Time p{
+   margin:5px 0 10px;
+   font-size: 24px;
+   font-weight: 400;
+   color: var(--white);
+}
+.Time button{
+  transition: all .5s ease;
+  color: var(--white);
+  font-size: 'Poppins';
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+  
+}
+.Time button:hover{
+ color:var(--white);
+ background-color:#e5bb00;
+}
+
+
+
+
+.about-container
+{
+  background-color:#0B0E16 ;
+  width: 100%;
+  min-height:100vh;
+  margin:0;
+background-position: center; 
+  background-size:cover;
+  position: relative;
+  padding: 40px;
+   
+  }
+  .heading h1{
+    color: var(--white);
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Poppins',sans-serif;
+   }
+  .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin:65px auto;
+}
+.hero-content 
+{
+  flex:1;
+  width:600px;
+  color: var(--white);
+  margin:0px 25px;
+
+}
+
+.hero-content h2{
+  font-size: 38px;
+  margin-bottom: 20px;
+  font-family:'Poppins',sans-serif;
+  color: var(--white);
+}
+.hero-content p{
+  font-size: 24px;
+  font-style: normal;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: var(--white);
+}
+.hero-content button{
+  display: inline-block;
+  background-color:#e5bb00;
+   padding: 12px 24px;
+   border-radius: 5px;
+}
+.hero-content button:hover{
+  background-color: #e5bb00;
+  transform: scale(1.1);
+}
+
+.hero-image{
+  flex:1;
+  width:500px;
+  margin: auto;
+  
+}
+img{
+  width:100%;
+  height: auto;
+  border-radius: 30px;
+}
+.head{
+  color: white;
+  text-align: center;
+  padding: 2.5rem 0;
+}
+
+
+.Book{
+  background-color:#0B0E16 ;
+  width: 100%;
+  min-height:100vh;
+  margin:0;
+background-position: center; 
+  background-size:cover;
+  position: relative;
+  padding: 40px;
+
+}
+.Book.row{
+  display: flex;
+  flex-wrap:wrap;
+  gap:1.5rem;
+  align-items: center;
+}
+.Book .row .img {
+  width:600px;
+  height :500px;
+  padding: 60px;
+}
+.Book .row form {
+  flex:1 1 40rem;
+  padding:2rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border-radius:.5rem;
+}
+.inputBox{
+  padding: 2rem o;
+}
+.Book .row form .inputBox input{
+ width:80%;
+ padding:1rem;
+ border:2px solid rgba(0,0,0,.1);
+ font-size: 1rem;
+ color:#333;
+ text-transform: none;
+}
+.Book .row form .inputBox h3
+{
+  font-size: 2rem;
+  padding: 1rem 0;
+  color:var(--white);
+}
+
+.tour {
+  font-family: 'Poppins', sans-serif;
+  background:#0B0E16 ;
+  width:100%;
+  margin: 0;
+  padding: 40px;
+  text-decoration: none;
+  background-position: cover;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+.text h1{
+  text-align: center;
+  padding-bottom:15px;
+  margin-top: 45px;
+  color: var(--white);
+  font-family: 'Poppins',sans-serif;
+
+  text-shadow:0 5px 10px rgba(0,0,0,.2) ;
+  font-size: 55px;
+}
+.box-container
+{
+  /*display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+  gap: 15px;*/
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:30px;
+}
+.container .box-container .box{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  border-radius: 5px;
+  background:#e5bb00;
+  text-align: center;
+  padding:20px 10px;
+}
+.container .box-container .box img
+{
+  width: 80px;
+  height:80px;
+}
+.container .box-container .box h3{
+  color:black;
+  font-size: 20px;
+  padding: 20px;
+}
+.container .box-container .box .btn{
+  margin-top: 10px;
+  display: inline-block;
+  background: #f4f3f3;
+  font-size:17px;
+  border-radius: 20px;
+  padding:8px 45px;
+}
+.container .box-container .box .btn:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+}
+/*------------------------------------------------contect us-------------------*/
+
+.contect{
+  background-image: url(assets/img/_05963a5b-6c04-4711-9548-0ef968525c13.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ width:100%;
+ height:700px;
+ text-align: center;
+ justify-content: center;
+ padding: 100px;
+ box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.7);
+ color: var(--white);
+}
+.container-01{
+  font-size: 55px;
+  padding: 40px;
+}
+.contect_wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:30px;
+}
+.contect-form{
+   text-align: left;  
+}
+.contect-form h3{
+  font-size: 24px;
+  font-family: 'Poppins',sans-serif;
+  margin-bottom: 20px;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+input,textarea{
+  width:100%;
+  padding: 12px;
+  border-radius: 8px;
+  border:none;
+  background-color: #f8f8fa;
+  color:#333;
+}
+input:focus,
+textarea:focus{
+  outline:none;
+  box-shadow:0 0 8px #bbb;
+
+}
+button{
+  display:inline-block;
+  padding:12px 24px;
+  background-color: #e5bb00;
+  color:var(--white);
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #23f806;
+  transform: scale(1.1);
+}
+.contect-info{
+  text-align:left;
+  padding: 0 80px;
+  }
+.contect-info h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color:var(--white);
+}
+.contect-info p{
+  margin-bottom: 20px;
+
+}
+.contect-info i{
+  color:#e5bb00;
+  margin-right: 10px;
+}
+/*--------- card---------------*/
+.cardss{
+ background-color:#0B0E16 ;
+  width: 100%;
+  min-height:100vh;
+  margin:0;
+background-position: center; 
+  background-size:cover;
+  position: relative;
+  padding: 40px;
+}
+.cardss .top-head{
+  padding: 100px;
+  text-align: center;
+  color:var(--white);
+  font-family:'Poppins',sans-serif;
+  font-size: 55px;
+}
+.cardss.card-deck{
+  display:flex;
+  flex-wrap:wrap ;
+  gap:2rem;
+}
+.card-deck .cardss .card{
+  flex:1 1 30rem;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
+.cardss img{
+  height:20rem;
+  width:100%;
+  object-fit:cover;
+}
+.card-body{
+  padding:2rem;  
+}
+.card-body h5{
+  font-size: 2rem;
+}
+.cardss .card-body .card-stars{
+  font-size: 1rem;
+  color: #e5bb00;
+}
+.cardss .card-body .Price{
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+.cardss .card-body .Price span{
+  color:#666;
+  font-size: 1.5rem;
+  text-decoration: line-through;
+}
+.card-title i{
+  color:#e5bb00;
+  padding:10px
+}
+
+
+
+
+
+
+.card-body .btn{
+ display: inline-block;
+  background-color:#e5bb00;
+   padding: 12px 24px;
+   border-radius: 5px;
+   text-align: center;
+}
